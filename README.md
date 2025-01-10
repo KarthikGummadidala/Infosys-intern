@@ -27,12 +27,12 @@ This project aims to develop an advanced AI-powered system that revolutionizes s
  - [Dataset](https://www.kaggle.com/datasets/chakilamvishwas/imports-exports-15000/data)
 
 
+---
 
-### Milestone 2: Comprehensive Workflow for News Data Analysis
+# Milestone 2: Comprehensive Workflow for News Data Analysis
 
 In **Milestone 2**, I accomplished three major steps to perform data processing, risk analysis, and sentiment analysis on news articles. Below is a detailed summary of each step:
 
----
 
 ## **Step 1: Fetch News Data**
 - **Objective**: To gather and structure news data from an external source for further analysis.
@@ -44,7 +44,6 @@ In **Milestone 2**, I accomplished three major steps to perform data processing,
      - Aggregate the news data into a **DataFrame** for easier manipulation and structured representation.
 - **Output**: A CSV file named `news_data.csv` containing the raw and processed news data, ready for the next stages of analysis.
 
----
 
 ## **Step 2: Risk Analysis**
 - **Objective**: To analyze the collected news articles and identify associated risks by leveraging a pre-trained **Large Language Model (LLM)**.
@@ -59,7 +58,6 @@ In **Milestone 2**, I accomplished three major steps to perform data processing,
   3. **Output**:
      - The processed risk data was saved in a CSV file named `news_import_export_risks_file.csv`, containing each article's text, corresponding risk scores, and the highest risk score.
 
----
 
 ## **Step 3: Sentiment Analysis**
 - **Objective**: To evaluate the sentiment of the news articles (positive, negative, or neutral).
@@ -71,12 +69,4 @@ In **Milestone 2**, I accomplished three major steps to perform data processing,
   3. Saved the sentiment analysis results into a CSV file.
 - **Output**: A CSV file named `news_sentiment_analysis.csv` containing sentiment scores for each news article.
 
----
 
-### **Summary**
-This milestone demonstrated a robust workflow involving:
-1. **Data Collection and Storage**: Efficiently fetched and structured news articles for analysis.
-2. **Risk Assessment**: Applied a cutting-edge LLM model to identify and quantify risks in the news data.
-3. **Sentiment Analysis**: Performed sentiment analysis to extract emotional tone, leveraging the VADER lexicon.
-
-The outputs (`news_data.csv`, `news_import_export_risks_file.csv`, and `news_sentiment_analysis.csv`) provide a comprehensive dataset for further insights and decision-making in the context of news-driven risk and sentiment evaluation.
