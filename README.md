@@ -50,13 +50,14 @@ In **Milestone 2**, I accomplished three major steps to perform data processing,
 - **Process**:
   1. **API Integration**:
      - Defined a list of risk factors (e.g., logistical, environmental, geopolitical).
+  2. **LLM Model from hugging face**:
      - Used the Hugging Face pre-trained model **"sentence-transformers/all-MiniLM-L6-v2"** for natural language processing.
-  2. **LLM Analysis**:
+  3. **LLM Analysis**:
      - Encoded the predefined risk factors into embeddings using the model.
      - Encoded the text of the news articles and calculated similarity scores between the articles and the risk factors.
      - Assigned numeric risk scores to each article based on the highest similarity score.
-  3. **Output**:
-     - The processed risk data was saved in a CSV file named `news_import_export_risks_file.csv`, containing each article's text, corresponding risk scores, and the highest risk score.
+  4. **Output**:
+     - The processed risk data was saved in a CSV file named `news_import_export_risks_file(1).csv`, containing each article's text and also a CSV file named `news_import_export_risks_file(3).csv`, corresponding risk scores, and the highest risk score.
 
 
 ## **Step 3: Sentiment Analysis**
