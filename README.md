@@ -57,7 +57,7 @@ In **Milestone 2**, I accomplished three major steps to perform data processing,
      - Encoded the text of the news articles and calculated similarity scores between the articles and the risk factors.
      - Assigned numeric risk scores to each article based on the highest similarity score.
   4. **Output**:
-     - The processed risk data was saved in a CSV file named `news_import_export_risks_file(1).csv`, containing each article's text and also a CSV file named `news_import_export_risks_file(3).csv`, corresponding risk scores, and the highest risk score.
+     - The processed risk data was saved in a CSV file named `news_import_export_risks_file(1).csv`, containing each article's text and also a CSV file named `news_import_export_risks_file(3).csv`,containing each article's text, corresponding risk scores, and the highest risk score.
 
 
 ## **Step 3: Sentiment Analysis**
