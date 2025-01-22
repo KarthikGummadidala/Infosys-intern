@@ -70,4 +70,34 @@ In **Milestone 2**, I accomplished three major steps to perform data processing,
   3. Saved the sentiment analysis results into a CSV file.
 - **Output**: A CSV file named `news_sentiment_analysis.csv` containing sentiment scores for each news article.
 
+---
+
+# Milestone 3: Predictive Disruption Modeling & ERP Integration Module
+
+This project focuses on analyzing warehouse data for the clothing industry to monitor stock utilization, assess risk factors, and provide actionable insights. It generates a synthetic dataset based on real-world constraints and provides a framework for data analysis.
+
+## **Step 1: Milestone 3 Overview**
+  1. Generate warehouse data for the product category of clothes.
+  2. Analyze the generated data to identify stock utilization patterns, risk factors, and sentiment analysis.
+  3. Provide actionable alerts (e.g., BUY, SELL, or MONITOR) based on data analysis.
+  4. Save alerts and processed data to CSV files for reporting.
+
+## **Step 2: Features**
+  1. Synthetic Dataset Generation:
+     - Month: The month of operation.
+     - Warehouse Capacity: The total capacity of the warehouse.
+     - Monthly Incoming: Number of units received in the warehouse.
+     - Monthly Outgoing: Number of units dispatched from the warehouse.
+     - Risk Analysis: A qualitative risk assessment (Low, Medium, or High).
+     - Sentiment: Market sentiment for the supply chain (Positive, Neutral, or Negative).
+  2. Data Analysis:
+     - Monitors warehouse utilization and identifies critical conditions.
+     - Generates actionable alerts based on:
+       - High utilization rates.
+       - Low utilization rates.
+       - High risks.
+       - Negative market sentiment.
+  3. Output CSV Files:
+     - Saves generated warehouse data to clothing_warehouse_data.csv.
+     - Saves actionable alerts to warehouse_alerts.csv.
 
