@@ -1,0 +1,67 @@
+Month,Action,Reason
+April,SELL,"High utilization (0.97), Low risk, Negative sentiment"
+June,BUY,"Low utilization (0.37), consider buying material"
+August,MONITOR,High utilization (0.23) with High risk
+February,SELL,"High utilization (0.81), Medium risk, Negative sentiment"
+January,SELL,"High utilization (0.20), High risk, Negative sentiment"
+August,BUY,"Low utilization (0.29), consider buying material"
+December,SELL,"High utilization (0.87), High risk, Negative sentiment"
+December,SELL,"High utilization (0.60), High risk, Negative sentiment"
+November,SELL,"High utilization (0.99), Low risk, Negative sentiment"
+June,MONITOR,High utilization (0.97) with High risk
+July,BUY,"Low utilization (0.40), consider buying material"
+June,MONITOR,High utilization (0.84) with High risk
+October,BUY,"Low utilization (0.17), consider buying material"
+July,BUY,"Low utilization (0.24), consider buying material"
+January,BUY,"Low utilization (0.07), consider buying material"
+February,SELL,"High utilization (0.91), High risk, Negative sentiment"
+September,SELL,"High utilization (0.43), High risk, Negative sentiment"
+November,SELL,"High utilization (0.87), Medium risk, Negative sentiment"
+November,MONITOR,High utilization (0.96) with High risk
+December,MONITOR,High utilization (0.96) with Low risk
+January,MONITOR,High utilization (1.00) with High risk
+January,MONITOR,High utilization (0.54) with High risk
+June,MONITOR,High utilization (0.58) with High risk
+February,SELL,"High utilization (0.95), Low risk, Negative sentiment"
+July,MONITOR,High utilization (0.63) with High risk
+October,MONITOR,High utilization (0.69) with High risk
+June,SELL,"High utilization (0.86), High risk, Negative sentiment"
+June,SELL,"High utilization (0.12), High risk, Negative sentiment"
+August,BUY,"Low utilization (0.34), consider buying material"
+April,MONITOR,High utilization (0.86) with High risk
+June,MONITOR,High utilization (0.88) with High risk
+October,MONITOR,High utilization (0.20) with High risk
+December,SELL,"High utilization (0.87), High risk, Negative sentiment"
+September,SELL,"High utilization (0.89), Medium risk, Negative sentiment"
+June,MONITOR,High utilization (0.20) with High risk
+October,BUY,"Low utilization (0.26), consider buying material"
+July,SELL,"High utilization (0.84), High risk, Negative sentiment"
+September,MONITOR,High utilization (0.94) with Medium risk
+August,MONITOR,High utilization (0.08) with High risk
+May,BUY,"Low utilization (0.33), consider buying material"
+August,BUY,"Low utilization (0.11), consider buying material"
+September,MONITOR,High utilization (0.94) with High risk
+February,BUY,"Low utilization (0.24), consider buying material"
+September,MONITOR,High utilization (0.27) with High risk
+December,MONITOR,High utilization (0.16) with High risk
+August,BUY,"Low utilization (0.09), consider buying material"
+June,MONITOR,High utilization (0.48) with High risk
+June,BUY,"Low utilization (0.24), consider buying material"
+July,BUY,"Low utilization (0.26), consider buying material"
+February,BUY,"Low utilization (0.30), consider buying material"
+November,MONITOR,High utilization (0.84) with Medium risk
+February,MONITOR,High utilization (0.81) with Low risk
+October,MONITOR,High utilization (0.92) with Low risk
+July,SELL,"High utilization (0.93), Low risk, Negative sentiment"
+November,BUY,"Low utilization (0.25), consider buying material"
+March,BUY,"Low utilization (0.35), consider buying material"
+March,BUY,"Low utilization (0.31), consider buying material"
+November,SELL,"High utilization (0.24), High risk, Negative sentiment"
+October,MONITOR,High utilization (0.64) with High risk
+May,MONITOR,High utilization (0.89) with High risk
+February,BUY,"Low utilization (0.36), consider buying material"
+June,BUY,"Low utilization (0.36), consider buying material"
+May,MONITOR,High utilization (0.73) with High risk
+November,BUY,"Low utilization (0.14), consider buying material"
+June,SELL,"High utilization (0.98), Medium risk, Negative sentiment"
+June,BUY,"Low utilization (0.11), consider buying material"
