@@ -1,0 +1,10 @@
+Install the required dependencies:
+pip install pandas
+
+Navigate to the project directory:
+cd clothing-warehouse-analysis
+
+Dependencies:
+Python 3.7+
+Pandas library
+
