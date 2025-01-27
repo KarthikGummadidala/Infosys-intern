@@ -26,6 +26,16 @@ This project aims to develop an advanced AI-powered system that revolutionizes s
  - [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
  - [Dataset](https://www.kaggle.com/datasets/chakilamvishwas/imports-exports-15000/data)
 
+#### Get newsapi items
+
+```http
+  GET https://newsapi.org/v2/everything
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. 6d1fda2210ea41c69edf6a9ce33f4b13 |
+
 
 ---
 
