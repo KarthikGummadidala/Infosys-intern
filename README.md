@@ -134,6 +134,10 @@ This project analyzes warehouse data for the clothing industry and provides acti
   - email
   - MIMEText
   - MIMEMultipart
+    Install dependencies using:
+    ```bash
+      pip install pandas
+    ```
 
 ## **Step to step process**
   1. Install Prerequisites
@@ -160,6 +164,12 @@ This project analyzes warehouse data for the clothing industry and provides acti
         - Your Gmail address.
         - The App Password generated in Step 2.
         - The recipient's email address.
+      Update the following variables in the script:
+      ```bash
+        sender_email = "your-email@gmail.com"        # Your Gmail address
+        sender_password = "your-app-password"        # The app password   generated in Step 2
+        recipient_email = "recipient-email@gmail.com" # Recipient's email address
+      ```
   5. Run the Script
      1. Open a terminal or command prompt.
      2. Navigate to the folder containing the script.
@@ -175,6 +185,19 @@ This project analyzes warehouse data for the clothing industry and provides acti
   6. Check the Output
      1. Verify the console output:
         - If the conditions are met for the selected month, you will see an alert message in the console.
+     Console Output:
+      ```yaml
+      --- Single Notification ---
+      Month: January | Action: SELL | Reason: High utilization (0.85), High risk, Negative sentiment
+      Email sent successfully!
+      ```
      2. Check the email notification:
         - The recipient will receive an email with the alert details.
+      Email Notification:
+      Subject: Warehouse Alert Notification
+      Body: 
+      ```yaml
+      Month: January | Action: SELL | Reason: High utilization (0.85), High risk, Negative sentiment
+      
+      ```
 
