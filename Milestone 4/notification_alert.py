@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
         # Gmail Notification
         sender_email = "gkarthik3603@gmail.com"  # Replace with your Gmail address
-        sender_password = "azea syda glwm mkrx"  # Replace with your Gmail app password
+        sender_password = "azea syda glwm ****"  # Replace with your Gmail app password
         recipient_email = "aidl4mars@gmail.com"  # Replace with recipient's email address
         subject = "Warehouse Alert Notification"
         send_email_notification(sender_email, sender_password, recipient_email, subject, notification_message)
