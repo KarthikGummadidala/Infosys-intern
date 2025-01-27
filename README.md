@@ -113,7 +113,7 @@ This project focuses on analyzing warehouse data for the clothing industry to mo
 
 --- 
 
-# Milestone 3: Warehouse Alert System with Gmail Notifications
+# Milestone 4: Warehouse Alert System with Gmail Notifications
 
 This project analyzes warehouse data for the clothing industry and provides actionable insights, such as BUY, SELL, or MONITOR, based on stock utilization, risk factors, and sentiment analysis. Additionally, the system sends notification alerts to a specified email address via Gmail.
 
@@ -164,6 +164,14 @@ This project analyzes warehouse data for the clothing industry and provides acti
      1. Open a terminal or command prompt.
      2. Navigate to the folder containing the script.
      3. Run the script and provide the month you want to analyze when prompted.
+        Run the script:
+        ```bash
+          python main.py
+        ```
+        Enter the month you want to analyze:
+        ```bash
+          Enter the month to analyze (e.g., January): June
+        ```
   6. Check the Output
      1. Verify the console output:
         - If the conditions are met for the selected month, you will see an alert message in the console.
