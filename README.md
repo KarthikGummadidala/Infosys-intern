@@ -101,3 +101,62 @@ This project focuses on analyzing warehouse data for the clothing industry to mo
      - Saves generated warehouse data to clothing_warehouse_data.csv.
      - Saves actionable alerts to warehouse_alerts.csv.
 
+--- 
+
+# Milestone 3: Warehouse Alert System with Gmail Notifications
+
+This project analyzes warehouse data for the clothing industry and provides actionable insights, such as BUY, SELL, or MONITOR, based on stock utilization, risk factors, and sentiment analysis. Additionally, the system sends notification alerts to a specified email address via Gmail.
+
+## **Features**
+- Analyze warehouse data for critical conditions:
+  - High utilization (above 80%).
+  - Low utilization (below 40%).
+  - Risk factors (e.g., High risk).
+  - Market sentiment (e.g., Negative sentiment).
+- Automatically sends email notifications with the alert details.
+- Fully integrated with Gmail using SMTP.
+
+## **Dependencies**
+- Python 3.7+ installed on your system.
+- Required Python libraries:
+  - pandas
+  - smtplib
+  - email
+  - MIMEText
+  - MIMEMultipart
+
+## **Step to step process**
+  1. Install Prerequisites
+     1. Install Python 3.7+ on your system.
+     2. Install the required Python libraries (e.g., pandas).
+     3. Ensure you have a CSV file containing your warehouse data. The file should include the following columns:
+        - Month, Warehouse Capacity, Monthly Incoming, Monthly Outgoing, Risk Analysis, and Sentiment.
+  2. Enable Gmail SMTP Access
+     1. Log in to your Gmail account.
+     2. Enable 2-Step Verification:
+        - Navigate to Google Account > Security > 2-Step Verification and enable it.
+      3. Generate an App Password:
+         - Go to Google Account > Security > App Passwords.
+         - Select "Mail" as the app and "Other" as the device.
+         - Generate the password and copy it for later use.
+  3. Prepare the Project Directory
+     1. Create a folder for the project.
+     2. Place the following files in the folder:
+        - The Python script to analyze warehouse data and send Gmail notifications.
+        - The CSV file containing your warehouse data.
+  4. Update the Script
+     1. Open the Python script.
+     2. Update the following details in the script:
+        - Your Gmail address.
+        - The App Password generated in Step 2.
+        - The recipient's email address.
+  5. Run the Script
+     1. Open a terminal or command prompt.
+     2. Navigate to the folder containing the script.
+     3. Run the script and provide the month you want to analyze when prompted.
+  6. Check the Output
+     1. Verify the console output:
+        - If the conditions are met for the selected month, you will see an alert message in the console.
+     2. Check the email notification:
+        - The recipient will receive an email with the alert details.
+
